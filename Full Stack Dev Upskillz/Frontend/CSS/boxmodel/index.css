@@ -1,0 +1,73 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border: rgb(71, 11, 36) solid 5px;
+    height: 400px;
+    width: 100%;
+    background-color: pink;
+}
+
+.box
+{
+    height: 200px;
+    border: 2px dashed rgb(71, 11, 36);
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box1
+{
+    background-color: white;
+}
+
+.box2
+{
+    background-color: palevioletred;
+}
+
+.box3
+{
+    background-color: rgb(165, 60, 104);
+}
+
+.main_box
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+}
+
+.wave_container
+{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}

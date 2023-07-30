@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+}
+
+.anime{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    transform: rotate(134deg);
+    animation: round linear 2s infinite;
+}
+
+@keyframes round{
+    0% {transform: rotate(0deg);}
+  
+    50%{transform: rotate(90deg);}
+    
+    100%{transform: rotate(180deg);}
+}

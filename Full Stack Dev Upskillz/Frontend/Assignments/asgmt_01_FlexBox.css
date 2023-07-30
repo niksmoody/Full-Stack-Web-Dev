@@ -1,0 +1,45 @@
+html{
+    word-wrap: normal;
+}
+
+body{
+    background-color: rgb(255, 230, 230);
+}
+
+.text{
+    /* position: relative; */
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 200px;
+    position: absolute;
+    font-size: 45px;
+    margin-top: 150px;
+}
+
+.down_button{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 200px;
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    border-color: orangered;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.rocket{
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    margin-right: 300px;
+}
+
+.reading{
+    position: absolute;
+    z-index: 1;
+    float: right;
+    margin-top: 74px;
+    margin-left: 950px;
+}
